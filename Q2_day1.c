@@ -1,12 +1,12 @@
 #include<stdio.h>
     int main()
     {
-       float a,b;   //Here a and b are two variables declared for getting the number input from the user.
-       printf("Enter a:");
-       scanf("%f", &a);
-       printf("Enter b:");
-       scanf("%f", &b);
-       float sum = a+b, difference = a-b, product = a*b, quotient = a/b;
+       float num1,num2;   
+       printf("Enter num1:");
+       scanf("%f", &num1);
+       printf("Enter num2:");
+       scanf("%f", &num2);
+       float sum = num1+num2, difference = num1-num2, product = num1*num2, quotient = num1/num2;
        printf("The sum of the given numbers is:%f\n",sum);
        printf("The difference of the given numbers is:%f\n",difference);
        printf("The product of the given numbers is:%f\n", product); 
