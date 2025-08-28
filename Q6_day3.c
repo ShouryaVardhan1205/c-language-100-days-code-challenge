@@ -1,4 +1,4 @@
-//Swap two numbers using a third variable.
+//Q6: Write a program to swap two numbers using a third variable.
 #include <stdio.h>
 int main()
 {
@@ -12,4 +12,5 @@ int main()
     b = c;
     printf("a is: %.2f\n and b is: %.2f", a,b);
         return 0;
+
 }
